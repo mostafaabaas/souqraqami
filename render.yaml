@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: souqraqami
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
