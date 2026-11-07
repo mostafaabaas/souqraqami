@@ -203,3 +203,9 @@ html[lang="ar"] .error-panel h1{font-weight:800;line-height:1.45}
   *{transition:none!important;scroll-behavior:auto!important}
   .card:hover,.tile:hover,.step:hover,.btn:hover{transform:none}
 }
+
+/* works materials (content wave 2026-11-07) */
+.works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.work-item{margin:0}
+.work-item video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:var(--radius,16px);border:1px solid var(--line,rgba(127,127,127,.25));background:#000;display:block}
+.work-item figcaption{margin-top:8px;font-size:14px;opacity:.85}
